@@ -7,13 +7,13 @@
 
 PHP Fast Simple HTML DOM Parser - fast and low mamory usage HTML DOM Parser with syntax like PHP Simple HTML DOM Parser
 
-## Установка
+## Cài đặt
 
-Для установки выполните команду:
+Để cài đặt, hãy chạy lệnh:
 
     composer require dimabdc/php-fast-simple-html-dom-parser
 
-## Быстрый старт
+## Khởi động nhanh
 
 ```php    
 require_once "vendor/autoload.php";
@@ -34,7 +34,7 @@ foreach($html->find('div.post') as $post) {
 print_r($post);
 ```
 
-## Как создать HTML DOM объект
+## Cách tạo ra một đối tượng HTML DOM
 
 ```php    
 
@@ -53,9 +53,9 @@ $html->loadHtmlFile('test.htm');
 $html = new Document(file_get_contents('https://habrahabr.ru/interesting/'));
 ```
 
-## Как искать HTML DOM элементы?
+## Làm thế nào để tìm kiếm các phần tử HTML DOM?
 
-### Основа
+### Nền tảng
 
 ```php    
 
